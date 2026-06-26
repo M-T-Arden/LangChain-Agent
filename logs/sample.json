@@ -1,0 +1,332 @@
+[
+  {
+    "timestamp": "2026-03-07T09:08:22",
+    "event": "LOGIN_FAILED",
+    "user": "user41",
+    "ip": "192.168.1.62",
+    "event_id": "EVT-0000000",
+    "status": "TIMEOUT",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"
+  },
+  {
+    "timestamp": "2026-03-15 19:13:56",
+    "event": "NETWORK_ALERT",
+    "user": "user26",
+    "ip": "141.125.180.47",
+    "user_agent": "curl/7.92.0"
+  },
+  {
+    "timestamp": "2026-03-14T07:19:23.000000",
+    "event": "NETWORK_ALERT",
+    "user": "user11",
+    "ip": "172.16.20.37",
+    "status": "OK",
+    "user_agent": "Wget/1.21.3"
+  },
+  {
+    "timestamp": "2026-03-19T01:16:09",
+    "event": "ACCESS_DENIED",
+    "user": "user97",
+    "ip": "10.0.0.12",
+    "status": "TIMEOUT"
+  },
+  {
+    "timestamp": "2026-03-10T19:14:23.000000",
+    "event": "NETWORK_ALERT",
+    "user": "user86",
+    "ip": "49.224.109.154",
+    "dst_ip": "10.0.0.105",
+    "user_agent": "python-requests/2.31.0",
+    "source": "aws",
+    "service": "auth"
+  },
+  {
+    "timestamp": "2026-03-11T21:26:08.000000",
+    "event": "MFA_FAILURE",
+    "user": "user40",
+    "ip": "10.0.0.237",
+    "event_id": "EVT-0000007"
+  },
+  {
+    "timestamp": "2026-03-18T07:09:35.000000",
+    "event": "LOGIN_SUCCESS",
+    "user": "user72",
+    "ip": "42.230.237.214",
+    "event_id": "EVT-0000008",
+    "source": "duo",
+    "service": "auth",
+    "message": "Suspicious outbound connection detected"
+  },
+  {
+    "timestamp": "2026-03-11T18:02:18.000000",
+    "event": "LOGIN_FAILED",
+    "user": "user79",
+    "ip": "179.179.42.229",
+    "event_id": "EVT-0000009",
+    "user_agent": "Wget/1.21.3"
+  },
+  {
+    "timestamp": "2026-03-01T21:02:40.000000",
+    "event": "FILE_ACCESS",
+    "user": "user19",
+    "ip": "136.208.206.17",
+    "user_agent": "python-requests/2.31.0"
+  },
+  {
+    "timestamp": "2026-03-09T22:14:59.000000",
+    "event": "ACCESS_DENIED",
+    "user": "user67",
+    "ip": "77.50.197.244"
+  },
+  {
+    "timestamp": "2026-03-06T18:59:35.000000",
+    "event": "LOGIN_FAILED",
+    "user": "user45",
+    "ip": "103.120.152.239",
+    "event_id": "EVT-0000012",
+    "user_agent": "Wget/1.21.3"
+  },
+  {
+    "timestamp": "2026-03-11T22:46:04.000000",
+    "event": "LOGIN_FAILED",
+    "user": "user37",
+    "ip": "205.134.125.128",
+    "event_id": "EVT-0000013",
+    "status": "SUCCESS"
+  },
+  {
+    "timestamp": "2026-03-15T06:52:54",
+    "event": "MFA_FAILURE",
+    "user": "user71",
+    "ip": "192.168.1.136",
+    "event_id": "EVT-0000014",
+    "status": "OK"
+  },
+  {
+    "timestamp": "2026-03-05T17:48:46",
+    "event": "LOGIN_FAILED",
+    "user": "user47",
+    "ip": "115.221.43.118",
+    "event_id": "EVT-0000015"
+  },
+  {
+    "timestamp": "2026-03-03T09:37:14",
+    "event": "FILE_ACCESS",
+    "user": "user83",
+    "ip": "111.187.128.249",
+    "status": "DENIED"
+  },
+  {
+    "timestamp": "2026-03-05T16:38:43",
+    "event": "LOGIN_FAILED",
+    "user": "user6",
+    "ip": "39.53.12.99",
+    "src_ip": "39.53.12.99",
+    "event_id": "EVT-0000017"
+  },
+  {
+    "timestamp": "2026-03-03T21:29:39.000000",
+    "event": "NETWORK_ALERT",
+    "user": "user65",
+    "ip": "124.181.183.62",
+    "status": "OK",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+  },
+  {
+    "timestamp": "2026-03-16T22:47:19.000000",
+    "event": "FILE_ACCESS",
+    "user": "user21",
+    "ip": "68.140.233.95",
+    "user_agent": "curl/7.92.0"
+  },
+  {
+    "timestamp": "2026-03-04T19:52:32",
+    "event": "MFA_REQUIRED",
+    "user": "user41",
+    "ip": "106.248.106.198",
+    "src_ip": "106.248.106.198",
+    "event_id": "EVT-0000024"
+  },
+  {
+    "timestamp": "2026-03-13T10:32:39.000000",
+    "event": "LOGIN_FAILED",
+    "user": "user13",
+    "ip": "192.168.1.62",
+    "dst_ip": "172.16.31.193",
+    "event_id": "EVT-0000025",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
+  },
+  {
+    "timestamp": "2026-03-11T18:41:36.000000",
+    "event": "LOGIN_SUCCESS",
+    "user": "user60",
+    "ip": "172.16.31.12",
+    "dst_ip": "192.168.1.113",
+    "event_id": "EVT-0000026",
+    "source": "ssh",
+    "service": "web"
+  },
+  {
+    "timestamp": "2026-03-19T16:42:30.000000",
+    "event": "LOGIN_FAILED",
+    "user": "user39",
+    "ip": "115.221.43.118",
+    "event_id": "EVT-0000027",
+    "status": "DENIED",
+    "source": "aws",
+    "service": "endpoint",
+    "message": "Access from unknown device",
+    "correlation_id": "c-5334"
+  },
+  {
+    "timestamp": "2026-03-03 21:00:56",
+    "event": "NETWORK_ALERT",
+    "user": "user27",
+    "ip": "172.16.16.251",
+    "correlation_id": "c-1827"
+  },
+  {
+    "timestamp": "2026-03-11 03:16:08",
+    "event": "LOGIN_SUCCESS",
+    "user": "user44",
+    "ip": "114.78.81.207",
+    "src_ip": "114.78.81.207",
+    "dst_ip": "192.168.1.107",
+    "event_id": "EVT-0000029",
+    "status": "DENIED"
+  },
+  {
+    "timestamp": "2026-03-14T06:29:04.000000",
+    "event": "LOGIN_SUCCESS",
+    "user": "user29",
+    "ip": "42.69.210.189",
+    "dst_ip": "172.16.10.163",
+    "event_id": "EVT-0000030"
+  },
+  {
+    "timestamp": "2026-03-17T13:10:53",
+    "event": "LOGIN_FAILED",
+    "user": "user14",
+    "ip": "106.248.106.198",
+    "event_id": "EVT-0000031"
+  },
+  {
+    "timestamp": "2026-03-16 16:08:12",
+    "event": "LOGIN_FAILED",
+    "user": "user36",
+    "ip": "172.16.21.77",
+    "event_id": "EVT-0000032",
+    "status": "TIMEOUT"
+  },
+  {
+    "timestamp": "2026-03-04T17:40:48",
+    "event": "FILE_ACCESS",
+    "user": "user20",
+    "ip": "177.148.244.58",
+    "status": "OK",
+    "user_agent": "python-requests/2.31.0",
+    "source": "vpn",
+    "service": "vpn"
+  },
+  {
+    "timestamp": "2026-03-07T06:23:35",
+    "event": "MFA_FAILURE",
+    "user": "user41",
+    "ip": "147.52.75.242",
+    "dst_ip": "192.168.1.25",
+    "event_id": "EVT-0000035"
+  },
+  {
+    "timestamp": "2026-03-17T18:10:58.000000",
+    "event": "CONFIG_UPDATE",
+    "user": "user48",
+    "ip": "192.168.1.130",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"
+  },
+  {
+    "timestamp": "2026-03-14T02:46:14.000000",
+    "event": "MFA_FAILURE",
+    "user": "user72",
+    "ip": "42.69.210.189",
+    "event_id": "EVT-0000037"
+  },
+  {
+    "timestamp": "2026-03-17T17:03:42.000000",
+    "event": "NETWORK_ALERT",
+    "user": "user28",
+    "ip": "147.52.75.242",
+    "dst_ip": "172.16.8.10",
+    "user_agent": "Wget/1.21.3"
+  },
+  {
+    "timestamp": "2026-03-18 19:11:56",
+    "event": "LOGIN_FAILED",
+    "user": "user83",
+    "ip": "41.101.189.137",
+    "event_id": "EVT-0000043",
+    "source": "azure",
+    "service": "web"
+  },
+  {
+    "timestamp": "2026-03-14T12:10:21",
+    "event": "FILE_ACCESS",
+    "user": "user60",
+    "ip": "127.210.14.122",
+    "dst_ip": "10.0.0.200",
+    "status": "OK"
+  },
+  {
+    "timestamp": "2026-03-13T13:01:08.000000",
+    "event": "ACCESS_DENIED",
+    "user": "user29",
+    "ip": "216.77.160.188",
+    "status": "OK",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36",
+    "message": "Unexpected configuration update"
+  },
+  {
+    "timestamp": "2026-03-06T20:51:09.000000",
+    "event": "LOGIN_FAILED",
+    "user": "user84",
+    "ip": "95.160.75.203",
+    "dst_ip": "192.168.1.30",
+    "event_id": "EVT-0000048",
+    "source": "aws",
+    "service": "vpn"
+  },
+  {
+    "timestamp": "2026-03-01 08:45:30",
+    "event": "LOGIN_SUCCESS",
+    "user": "user88",
+    "ip": "80.193.31.115",
+    "dst_ip": "172.16.3.244",
+    "event_id": "EVT-0000049"
+  },
+  {
+    "timestamp": "2026-03-16 18:30:53",
+    "event": "LOGIN_FAILED",
+    "user": "user50",
+    "ip": "71.240.245.228",
+    "event_id": "EVT-0000050",
+    "user_agent": "Wget/1.21.3"
+  },
+  {
+    "timestamp": "2026-03-02T06:52:46.000000",
+    "event": "PASSWORD_CHANGE",
+    "user": "user99",
+    "ip": "138.250.93.183",
+    "status": "TIMEOUT",
+    "correlation_id": "c-5945"
+  },
+  {
+    "timestamp": "2026-03-14T06:38:38",
+    "event": "MFA_FAILURE",
+    "user": "user57",
+    "ip": "176.122.96.88",
+    "event_id": "EVT-0000052",
+    "status": "OK",
+    "source": "okta",
+    "service": "endpoint",
+    "session_id": "SID356980"
+  }
+]
