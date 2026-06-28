@@ -16,4 +16,4 @@ response = model_with_tools.invoke("What's the weather in Tokyo?")
 
 print("type:", type(response))
 print("content:", response.content)
-print("tool_calls:", response.tool_calls)  # ← 这里必须非空才说明 tool call 真正触发了
+print("tool_calls:", response.tool_calls)  # if it's empty, it doesn't support natively.
