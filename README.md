@@ -4,6 +4,7 @@
 `log-agent` is a small SOC log analysis agent built with LangGraph and local tool calling.
 
 # Mini SOC 日志分析 Agent
+[develop-video-EN](https://youtu.be/OKe3HGq45G4)
 [English](#mini-soc-log-analyzer-agent)
 
 这是一个基于 `log-agent/` 文件夹实现的轻量级 SOC 日志分析 Agent。它读取日志文件、提取可疑活动、缓存中间结果，并输出结构化 JSON 报告。
