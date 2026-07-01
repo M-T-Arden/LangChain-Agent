@@ -1,2 +1,6 @@
 .env/
 .env
+vlog/
+
+*.pyc
+**/__pycache__/**
